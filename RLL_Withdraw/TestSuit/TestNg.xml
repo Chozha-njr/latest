@@ -1,0 +1,12 @@
+
+<suite name="CucumberSuite">
+	<listeners>
+		<listener class-name="listner.Listeners"></listener>
+		<listener class-name="listner.Transformation"></listener>
+	</listeners>
+    <test name="CucumberTest">
+        <classes>
+            <class name="TestNGRunner" />
+        </classes>
+    </test>
+</suite>

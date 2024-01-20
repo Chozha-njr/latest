@@ -1,0 +1,18 @@
+
+<suite name="TestSuite" parallel="classes">
+    <test name="DepositTests">
+        <classes>
+            <class name="runner.TestNGRunner" />
+        </classes>
+    </test>
+    <!-- Add more <test> elements for other test classes if needed -->
+
+    <!-- Configuration parameters can be added if necessary -->
+    <parameter name="browser" value="Chrome" />
+
+    <!-- You can include additional configurations such as listeners, reporters, etc. -->
+    <!-- Example of including a listener -->
+    <!-- <listeners>
+        <listener class-name="com.example.MyTestListener" />
+    </listeners> -->
+</suite>
