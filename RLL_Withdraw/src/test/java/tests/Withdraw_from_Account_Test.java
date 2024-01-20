@@ -20,13 +20,7 @@ import stepDefinitions.Withdraw_step_def;
 	public Withdraw_from_Account_Page Withdraw_Method ;
 	//private final Withdraw_from_Account_Page Withdraw_Method ;
 	
-	/*
-    public Withdraw_from_Account_Test()
-    {
-		driver = new ChromeDriver();
-		Withdraw_Method = new Withdraw_from_Account_Page(driver);
-		
-    }*/
+
 	
 	@BeforeMethod
 	public void setup()
@@ -102,20 +96,7 @@ import stepDefinitions.Withdraw_step_def;
 		
 		driver.close();
 		
-		/*
-		Withdraw_Method.navigateToURL("http://dbankdemo.com/bank/login");
-		Withdraw_Method.performLogin("kirans@gmail.com", "Kiran4301@S");
-		Withdraw_Method.clickWithdrawLink();
 		
-		Withdraw_Method.clickselectaccount();
-		Withdraw_Method.invalid_input_0("0");
-		String expected="The withdraw amount  must be greater than $0.00";
-		String actual=Withdraw_Method.Error_0();
-		actual.equals(expected); 
-		Assert.assertTrue(actual.contains(expected),"please type valid input");
-		*/
-	
-       
 	}
 
 	
